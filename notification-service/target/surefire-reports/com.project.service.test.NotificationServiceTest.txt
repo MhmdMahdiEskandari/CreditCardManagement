@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.project.service.test.NotificationServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.263 s <<< FAILURE! - in com.project.service.test.NotificationServiceTest
+com.project.service.test.NotificationServiceTest  Time elapsed: 2.261 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface com.project.repository.INofiticationRepository.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 25.0-b70
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 1.8.0-b132
+JVM info           : mixed mode
+OS name            : Windows 8.1
+OS version         : 6.3
+
+
+Underlying exception : java.lang.IllegalArgumentException: object is not an instance of declaring class
+Caused by: java.lang.IllegalArgumentException: object is not an instance of declaring class
+
